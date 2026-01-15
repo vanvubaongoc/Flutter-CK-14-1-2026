@@ -139,4 +139,14 @@ class AuthService {
       return null;
     }
   }
+
+  /// Xóa toàn bộ dữ liệu users cho testing
+  Future<void> cleanDatabaseForTesting() async {
+    try {
+      final db = await _databaseService.database;
+      await db.delete('users');
+    } catch (e) {
+      // Ignore errors in testing
+    }
+  }
 }

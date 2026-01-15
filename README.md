@@ -155,11 +155,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - **Bao**: Database Integration
 - **Ngoc**: Testing & Documentation
 
-## 📞 Liên hệ
 
-- Project Link: [GitHub Repository]
-- Email: your-email@gmail.com
 
----
-
-*Built with ❤️ using Flutter*
